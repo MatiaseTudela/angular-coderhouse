@@ -1,0 +1,8 @@
+<!-- Utilizamos ngFor para recorrer el array -->
+<ul class="tool" *ngFor="let peli of peliculas">
+  <li>
+    <p>Titulo: {{peli["pelicula"]}}</p>
+    <p>Director: {{peli["director"]}}</p>
+    <p>Año: {{peli["anio"]}}</p>
+  </li>
+ </ul>
