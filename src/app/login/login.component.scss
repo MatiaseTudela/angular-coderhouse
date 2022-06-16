@@ -4,6 +4,7 @@
   border: 1px solid gray;
   background: #202020;
   box-shadow:4px 7px 10px rgba(0,0,0,.4);
+  border-radius: 15px;
   form{
 
     width: 90%;
@@ -12,6 +13,7 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
 
     .inp{
       padding: 10px 10px;
@@ -41,6 +43,7 @@ button{
   width: 150px;
   text-align: center;
   margin-left: 5px;
+  border-radius: 10px;
 
 }
 /* .block{
@@ -56,4 +59,14 @@ button{
 button:disabled{
   background: gray;
   color:white;
+}
+lord-icon {
+  width: 228px;
+  height: 228px;
+  background-color: white;
+  border-radius: 15px;
+
+}
+.slot{
+  color: #202020;
 }

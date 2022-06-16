@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
+import { LordIconElement } from 'lord-icon-element';
 /* import { CommonService } from 'src/app/common.service'; */
 
 @Component({
