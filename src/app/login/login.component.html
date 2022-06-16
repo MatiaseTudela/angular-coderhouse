@@ -1,26 +1,38 @@
+<head>
+  <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+</head>
+
 <div class="main-grid-layout">
   <app-toolbar></app-toolbar>
   <app-navbar></app-navbar>
 
   <div class="wrapper">
-
-
     <div class="block">
-
-       <form [formGroup]="login">
-           <input type="text" placeholder="Ingrese= hola" class="inp" formControlName="name"/>
-           <input type="text" placeholder="Ingrese= 123" class="inp" formControlName="contra"/>
-           <div class="btns">
-           <button (click)="loginForm(login.value)" >LOGIN</button>
-           <button (click)="goToRegister()">SIGN UP</button>
-           </div>
-       </form>
-
+      <form [formGroup]="login">
+        <lord-icon
+        src="https://cdn.lordicon.com/dklbhvrt.json"
+        trigger="loop"
+        style="width: 285px; height: 285px"
+        colors="primary:#121331"
+      >
+      </lord-icon>>
+        <input
+          type="text"
+          placeholder="Ingrese= hola"
+          class="inp"
+          formControlName="name"
+        />
+        <input
+          type="text"
+          placeholder="Ingrese= 123"
+          class="inp"
+          formControlName="contra"
+        />
+        <div class="btns">
+          <button (click)="loginForm(login.value)">LOGIN</button>
+          <button (click)="goToRegister()">SIGN UP</button>
+        </div>
+      </form>
     </div>
-
-
-
-</div>
-
-
+  </div>
 </div>
