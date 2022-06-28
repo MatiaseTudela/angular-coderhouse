@@ -11,6 +11,10 @@ import { HomeComponent } from './home/home.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { defineLordIconElement } from 'lord-icon-element';
 import lottie from 'lottie-web';
+import { CreateComponent } from './alumnos/create/create.component';
+import { EditComponent } from './alumnos/edit/edit.component';
+import { ListComponent } from './alumnos/list/list.component';
+
 
 @NgModule({
   declarations: [
@@ -19,7 +23,10 @@ import lottie from 'lottie-web';
     NavbarComponent,
     MainComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
+    CreateComponent,
+    EditComponent,
+    ListComponent
   ],
   imports: [
     BrowserModule,
